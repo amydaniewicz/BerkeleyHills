@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_primary"
+    >
+<LinearLayout
+    android:id="@+id/detail_page_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:id="@+id/site_image_view"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/site_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryMedium"
+        android:textColor="@color/color_light_primary"
+        android:padding="@dimen/list_item_padding"
+        android:textSize="@dimen/title_text_size"
+        tools:text="Rose Walk" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/list_item_padding"
+        android:background="@color/colorPrimaryMediumLight"
+        android:textColor="@color/color_light_primary"
+        android:textAllCaps="true"
+        android:textSize="@dimen/description_text_size"
+        android:text="D E S C R I P T I O N"
+        />
+
+    <TextView
+        android:id="@+id/site_description_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/list_item_padding"
+        android:background="@color/color_light_primary"
+        android:textSize="@dimen/list_item_text_size"
+        android:textColor="@color/colorPrimaryDark"
+        tools:text="Placeholder"
+        />
+
+</LinearLayout>
+</ScrollView>

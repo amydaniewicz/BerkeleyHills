@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimaryMedium">#424242</color>
+    <color name="colorPrimaryMediumLight">#757575</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="color_light_primary">#E0E0E0</color>
+    <color name="category_paths">#1B5E20</color>
+    <color name="category_parks">#880E4F</color>
+    <color name="category_hikes">#F9A825</color>
+    <color name="category_homes">#4E342E</color>
+</resources>
